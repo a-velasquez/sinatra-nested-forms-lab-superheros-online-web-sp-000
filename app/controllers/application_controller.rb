@@ -19,5 +19,5 @@ class App < Sinatra::Base
 
       erb :team
     end
-  end
+  
 end
