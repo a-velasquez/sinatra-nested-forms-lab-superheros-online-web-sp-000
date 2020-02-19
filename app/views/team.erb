@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-  <h1>Team <%= @team_name %></h1>
+  <h1>Team <%= @team_name.name %></h1>
     <h2>Team Motto: <%= @team_motto %></h2>
     <% @team_members.each do |hero| %>
     <h2>Hero Name: <%= hero["name"] %></h2>
