@@ -13,7 +13,7 @@ class App < Sinatra::Base
       @team_motto = params["team"]["motto"]
       @team_members = params["team"]["members"]
 
-      erb :'../views/team'
+      erb :'team'
     end
 
 
